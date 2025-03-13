@@ -2,7 +2,7 @@ This is ssh Service Info
 ------------------------
 port=22 
 
-sshpass -f filename ssh -t -o StrictHostKeyChecking=No "df"
+sshpass -f filename ssh -t -o StrictHostKeyChecking=No user@ip "df"
 sshpass $PASSSSH
 sshpass password
 ssh -o StrictHostKeyChecking=NO 
