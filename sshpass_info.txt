@@ -1,0 +1,9 @@
+This is ssh Service Info
+------------------------
+
+
+sshpass -f filename
+sshpass $PASSSSH
+sshpass password
+ssh -o StrictHostKeyChecking=NO 
+-t  for command likes top 
