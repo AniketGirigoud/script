@@ -5,5 +5,5 @@ port=22
 sshpass -f filename ssh -t -o StrictHostKeyChecking=No "command"
 sshpass $PASSSSH
 sshpass password
-ssh -o StrictHostKeyChecking=NO "df"
+ssh -o StrictHostKeyChecking=NO 
 -t  for command likes top 
