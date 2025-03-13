@@ -1,6 +1,6 @@
 This is ssh Service Info
 ------------------------
-
+port=22 
 
 sshpass -f filename
 sshpass $PASSSSH
