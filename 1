@@ -1,0 +1,22 @@
+Failed to get unit for PID 2: PID 2 does not belong to any loaded unit.
+○ httpd.service - The Apache HTTP Server
+     Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; vendor preset: disabled)
+     Active: inactive (dead) since Thu 2025-02-27 12:38:35 IST; 21min ago
+       Docs: man:httpd.service(8)
+    Process: 3076 ExecStart=/usr/sbin/httpd $OPTIONS -DFOREGROUND (code=exited, status=0/SUCCESS)
+   Main PID: 3076 (code=exited, status=0/SUCCESS)
+     Status: "Total requests: 0; Idle/Busy workers 100/0;Requests/sec: 0; Bytes served/sec:   0 B/sec"
+        CPU: 7.919s
+
+Feb 27 12:04:36 localhost.localdomain systemd[1]: Starting The Apache HTTP Server...
+Feb 27 12:04:36 localhost.localdomain httpd[3076]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using localhost.localdomain. Set the 'ServerName' directive globally to suppress this message
+Feb 27 12:04:36 localhost.localdomain systemd[1]: Started The Apache HTTP Server.
+Feb 27 12:04:36 localhost.localdomain httpd[3076]: Server configured, listening on: port 80
+Feb 27 12:38:34 localhost.localdomain systemd[1]: Stopping The Apache HTTP Server...
+Feb 27 12:38:35 localhost.localdomain systemd[1]: httpd.service: Deactivated successfully.
+Feb 27 12:38:35 localhost.localdomain systemd[1]: Stopped The Apache HTTP Server.
+Feb 27 12:38:35 localhost.localdomain systemd[1]: httpd.service: Consumed 7.919s CPU time.
+
+○ dev-null.device - /dev/null
+     Loaded: loaded
+     Active: inactive (dead)
